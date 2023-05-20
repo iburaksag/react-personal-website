@@ -11,6 +11,7 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    margin-top: 5vh;
 }
 
 .about__me-image {
@@ -51,7 +52,6 @@
     margin-bottom: 1rem;
 }
 
-
 .about__card h5 {
     font-size: 0.95rem;
 }
@@ -64,7 +64,9 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
 }
+
 
 /* MD Devices*/
 @media screen and (max-width: 1024px) {
