@@ -1,5 +1,5 @@
 import React from 'react'
-import './testimonials.css'
+import './educations.css'
 
 import dogus from "../../assets/dogus.jpeg";
 import GCD from "../../assets/GCD.jpeg";
@@ -33,14 +33,14 @@ const data = [
   },
 ];
 
-const Testimonials = () => {
+const Educations = () => {
   return (
-    <section id="testimonials">
+    <section id="educations">
       <h5>Degrees that I have</h5>
       <h2>Education</h2>
 
         <Swiper
-          className="container testimonials__container"
+          className="container educations__container"
           modules={[Pagination]}
           spaceBetween={40}
           slidesPerView={1}
@@ -50,7 +50,7 @@ const Testimonials = () => {
         >
           {data.map(({ avatar, name, date, review }, index) => {
             return (
-              <SwiperSlide key={index} className="testimonial">
+              <SwiperSlide key={index} className="education">
                 <div className="client__avatar">
                   <img src={avatar} />
                 </div>
@@ -65,4 +65,4 @@ const Testimonials = () => {
   );
 }
 
-export default Testimonials
+export default Educations

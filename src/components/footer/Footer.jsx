@@ -20,13 +20,13 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#educations">Education</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -50,7 +50,7 @@ const Footer = () => {
 
       <div className="footer__copyright">
         <small>
-          2023 &copy; Burak Sag Personal Portfolio. All rights reserved.
+          2023 &copy; Burak Sag Personal Website. All rights reserved.
         </small>
       </div>
     </footer>

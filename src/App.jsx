@@ -2,10 +2,10 @@ import React from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from "./components/about/About";
-import Experience from "./components/experience/Experience";
-import Services from "./components/services/Services";
+import Skills from "./components/skills/Skills";
+import Experiences from "./components/experiences/Experiences";
 import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
+import Educations from "./components/educations/Educations";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
@@ -15,9 +15,9 @@ const App = () => {
       <Header />
       <Nav />
       <About />
-      <Experience />
-      <Testimonials />
-      <Services />
+      <Skills />
+      <Educations />
+      <Experiences />
       <Portfolio />
       <Contact />
       <Footer />

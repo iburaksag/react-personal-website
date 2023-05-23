@@ -1,23 +1,23 @@
 import React from 'react'
-import './services.css'
+import './experiences.css'
 import {BiCheck} from 'react-icons/bi'
 
-const Services = () => {
+const Experiences = () => {
   return (
-    <section id="services">
+    <section id="experiences">
       <h5>Employment History</h5>
       <h2>Job Experience</h2>
 
-      <div className="container services__container">
-        <article className="service">
-          <div className="service__head">
+      <div className="container experiences__container">
+        <article className="experience">
+          <div className="experience__head">
             <h3>Software Test Engineer Intern at Siemens</h3>
             <h5>Istanbul, Turkey</h5>
             <h5>July 2019 - September 2019</h5>
           </div>
-          <ul className="service__list">
+          <ul className="experience__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 I was in the project development stages of the software testing
                 team.
@@ -25,7 +25,7 @@ const Services = () => {
             </li>
 
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 Using the TIA Portal interface, virtual PLCs were created, and
                 various test operations were performed.
@@ -33,7 +33,7 @@ const Services = () => {
             </li>
 
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 Designed, implemented, and enhanced automation using Selenium
                 with C# on the web servers which PLCs are connected.
@@ -41,7 +41,7 @@ const Services = () => {
             </li>
 
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 Getting information about Scrum Framework and participating in
                 its applications.
@@ -49,21 +49,21 @@ const Services = () => {
             </li>
 
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>Manual tests were performed on the Web Server.</p>
             </li>
           </ul>
         </article>
 
-        <article className="service">
-          <div className="service__head">
+        <article className="experience">
+          <div className="experience__head">
             <h3>Junior Software Developer at Final Group</h3>
             <h5>Istanbul, Turkey</h5>
             <h5>July 2020 - September 2021</h5>
           </div>
-          <ul className="service__list">
+          <ul className="experience__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 As a part of the Final development team, I contributed to the
                 improvement works on the web projects of Final. (Final,
@@ -72,7 +72,7 @@ const Services = () => {
             </li>
 
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 In line with the needs of the company, I contributed to the
                 development steps of new projects on the .NET platform.
@@ -81,7 +81,7 @@ const Services = () => {
             </li>
 
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 Technologies, languages, and frameworks I use here: C#, .NET,
                 WebForms, Entity Framework, ADO.NET, LINQ, Angular JS, JQuery,
@@ -91,15 +91,15 @@ const Services = () => {
           </ul>
         </article>
 
-        <article className="service">
-          <div className="service__head">
+        <article className="experience">
+          <div className="experience__head">
             <h3>Localization QA Tester at Keywords Studios</h3>
             <h5>Dublin, Ireland</h5>
             <h5>July 2022 - Present</h5>
           </div>
-          <ul className="service__list">
+          <ul className="experience__list">
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 Testing, identifying, recording, and suggesting fixes to
                 potential bugs in games relating to language, implementation,
@@ -108,7 +108,7 @@ const Services = () => {
             </li>
 
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 Taking ownership of side tasks, such as daily report, bug
                 vetting.
@@ -116,7 +116,7 @@ const Services = () => {
             </li>
 
             <li>
-              <BiCheck className="service__list-icon" />
+              <BiCheck className="experience__list-icon" />
               <p>
                 Functional testing, QA Localization, writing of test cases,
                 reporting issues to JIRA/Excel, collaboration and contributing
@@ -130,4 +130,4 @@ const Services = () => {
   );
 }
 
-export default Services
+export default Experiences

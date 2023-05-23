@@ -39,7 +39,7 @@ const About = () => {
           </div>
 
           <p>
-            I possess a distinguished Bachelor's Degree in Computer Engineering
+            I hold a Bachelor's Degree in Computer Engineering
             from Doğuş University in Turkey, and I am presently pursuing a
             Master's Degree in Computer Science at Griffith College Dublin with
             an anticipated graduation date at the end of June 2023. I have

@@ -35,7 +35,7 @@ header {
 }
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(#E1D5C1, transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
