@@ -57,7 +57,7 @@ const About = () => {
             professionals in the industry.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary btn-talk">
             Let's Talk
           </a>
         </div>
