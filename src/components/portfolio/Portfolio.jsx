@@ -5,45 +5,45 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "First Item",
-    github: "https://github.com",
+    title: "Burak Sag Personal Website with React JS",
+    github: "https://github.com/iburaksag/react-personal-website",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Second Item",
-    github: "https://github.com",
+    title: "Car Rental Project by using MERN Stack",
+    github: "https://github.com/iburaksag/mern-car-rental",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Third Item",
-    github: "https://github.com",
+    title: "Python Flask Instagram Replica",
+    github: "https://github.com/iburaksag/python-flask-instagram-replica",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Fourth",
-    github: "https://github.com",
+    title: "Python Flask Calendar Application",
+    github: "https://github.com/iburaksag/python-flask-calendar-app",
   },
   {
     id: 5,
     image: IMG5,
-    title: "Fifth Item",
-    github: "https://github.com",
+    title: "LinkedIn Clone with React JS",
+    github: "https://github.com/iburaksag/react-linkedin-clone",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Sixth Item",
-    github: "https://github.com",
+    title: "Python Flask Formula 1 PaaS App ",
+    github: "https://github.com/iburaksag/python-flask-formula1-app",
   },
 ];
 
