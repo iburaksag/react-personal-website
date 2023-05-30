@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-3.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FaGraduationCap } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} className='about-img' alt="About Image" />
           </div>
         </div>
 
@@ -52,9 +52,7 @@ const About = () => {
             time. I am currently focused on building applications using back-end
             technologies such as Express, Node.js, Python, Flask. It is my aim
             to improve myself at this point and lay the foundations of being a
-            qualified full-stack developer. I'm excited to join a team where I
-            can contribute my skills and continue to learn from experienced
-            professionals in the industry.
+            qualified full-stack developer.
           </p>
 
           <a href="#contact" className="btn btn-primary btn-talk">
