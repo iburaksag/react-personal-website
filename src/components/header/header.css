@@ -56,16 +56,36 @@ header {
 }
 
 /* MD Devices*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 820px) {
     header {
-        height: 80vh;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 819px) and (min-width: 601px) {
+    header {
+        height: 95vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 385px) {
+    header {
+        height: 95vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
     }
 }
 
 /* SM Devices*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 385px) {
     header {
-        height: 85vh;
+        height: 110vh;
     }
 
     .header__socials, .scroll__down {
