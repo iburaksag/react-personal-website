@@ -40,17 +40,16 @@ const About = () => {
 
           <p>
             I hold a Bachelor's Degree in Computer Engineering
-            from Doğuş University in Turkey, and I am presently pursuing a
-            Master's Degree in Computer Science at Griffith College Dublin with
-            an anticipated graduation date at the end of June 2023. I have
+            from Doğuş University in Turkey, and I pursued a Master's Degree in Computer 
+            Science at Griffith College Dublin and successfully graduated in June 2023. I have
             experience developing web applications and APIs and working with
-            multiple programming languages and frameworks such as JavaScript,
-            HTML/CSS, React, and NodeJS. I am also familiar with database
-            management and cloud computing platforms such as Google Cloud App
-            Engine. As a collaborative team player, I thrive in fast-paced
+            multiple programming languages and frameworks such as Python,
+            HTML/CSS, React.js, and Node.js. I am also familiar with database
+            management and cloud computing platforms such as Google Cloud Platform. 
+            As a collaborative team player, I thrive in fast-paced
             environments and am committed to delivering high-quality work on
             time. I am currently focused on building applications using back-end
-            technologies such as Express, Node.js, Python, Flask. It is my aim
+            technologies such as Python, Django, Flask, Express, Node. It is my aim
             to improve myself at this point and lay the foundations of being a
             qualified full-stack developer.
           </p>
