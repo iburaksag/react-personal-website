@@ -47,6 +47,11 @@ const Experiences = () => {
                 its applications.
               </p>
             </li>
+            <li>
+
+              <BiCheck className="experience__list-icon" />
+              <p>Used N-Unit for unit testing of the classes.</p>
+            </li>
 
             <li>
               <BiCheck className="experience__list-icon" />
@@ -65,27 +70,28 @@ const Experiences = () => {
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                As a part of the Final development team, I contributed to the
-                improvement works on the web projects of Final. (Final,
-                FinalShop, FDST, FinalKitap, FinalInteraktif)
+                Involved in Design, Development and Testing of Web Forms and Web Services using ASP.NET Framework.
               </p>
             </li>
 
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                In line with the needs of the company, I contributed to the
-                development steps of new projects on the .NET platform.
-                (Internal systems such as FKYG, FinalIsTakip, FinalSmartZone)
+                Designed and developed C# components for implementing business logic in 3- tier application interacting with SQL Server database using managed provider and ADO.NET.
               </p>
             </li>
 
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                Technologies, languages, and frameworks I use here: C#, .NET,
-                WebForms, Entity Framework, ADO.NET, LINQ, Angular JS, JQuery,
-                AJAX, Html, Css, Bootstrap etc.
+                In line with the needs of the company, developed 5+ customized data-centric web applications using ASP.NET, C#NET, HTML, Services, LINQ, and MS SQL Server. (FinalShop, FDST, FinalSmartZone, FKYG, FinalInteraktif)
+              </p>
+            </li>
+
+            <li>
+              <BiCheck className="experience__list-icon" />
+              <p>
+                Technologies, languages, and frameworks I use here: C#, .NET, SQL Server, Entity Framework, ADO.NET, LINQ, Angular JS, JQuery, AJAX, HTML, CSS, Bootstrap etc.
               </p>
             </li>
           </ul>

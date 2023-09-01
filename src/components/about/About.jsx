@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-3.jpg'
+import ME from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FaGraduationCap } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -28,7 +28,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>15+ Completed</small>
+              <small>20+ Completed</small>
             </article>
 
             <article className="about__card">
@@ -39,19 +39,7 @@ const About = () => {
           </div>
 
           <p>
-            I hold a Bachelor's Degree in Computer Engineering
-            from Doğuş University in Turkey, and I pursued a Master's Degree in Computer 
-            Science at Griffith College Dublin and successfully graduated in June 2023. I have
-            experience developing web applications and APIs and working with
-            multiple programming languages and frameworks such as Python,
-            HTML/CSS, React.js, and Node.js. I am also familiar with database
-            management and cloud computing platforms such as Google Cloud Platform. 
-            As a collaborative team player, I thrive in fast-paced
-            environments and am committed to delivering high-quality work on
-            time. I am currently focused on building applications using back-end
-            technologies such as Python, Django, Flask, Express, Node. It is my aim
-            to improve myself at this point and lay the foundations of being a
-            qualified full-stack developer.
+              As a Software Developer, I bring a foundation in the field of ASP.Net and Python web development, as well as a willingness to learn and grow in this field. I have experience developing web applications and APIs and working with multiple programming languages and frameworks such as C#/ASP.Net, Python/Django-Flask and React.js. I am also familiar with database management (SQL, NoSQL) and cloud computing platforms such as Google Cloud and AWS. It is my aim to improve myself at this point and lay the foundations of being a qualified full-stack web developer. I am convinced that I should acquire knowledge about the current popular technology stacks to excel in my individual work. With competition within the industry intensifying each year, I firmly believe that a software developer who doesn't continuously improve and stay up to date cannot thrive in this dynamic field. I am confident that my skills, dedication, and collaborative nature would contribute to your business goals.
           </p>
 
           <a href="#contact" className="btn btn-primary btn-talk">
