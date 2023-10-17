@@ -27,16 +27,14 @@ const Experiences = () => {
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                Using the TIA Portal interface, virtual PLCs were created, and
-                various test operations were performed.
+                Virtual PLCs were created by using TIA Portal interface, and various test operations were performed on them.
               </p>
             </li>
 
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                Designed, implemented, and enhanced automation using Selenium
-                with C# on the web servers which PLCs are connected.
+                Designed, implemented, and enhanced automation using Selenium web driver with C# on the web servers which PLCs are connected.
               </p>
             </li>
 
@@ -84,14 +82,14 @@ const Experiences = () => {
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                In line with the needs of the company, developed 5+ customized data-centric web applications using ASP.NET, C#NET, HTML, Services, LINQ, and MS SQL Server. (FinalShop, FDST, FinalSmartZone, FKYG, FinalInteraktif)
+                In line with the needs of the company, developed 5+ customized data-centric web applications using ASP.NET, C#NET, HTML, Services, LINQ, and SQL Server. (FinalShop, FDST, FinalSmartZone, FKYG, FinalInteraktif)
               </p>
             </li>
 
             <li>
               <BiCheck className="experience__list-icon" />
               <p>
-                Technologies, languages, and frameworks I use here: C#, .NET, SQL Server, Entity Framework, ADO.NET, LINQ, Angular JS, JQuery, AJAX, HTML, CSS, Bootstrap etc.
+                Technologies, languages, and frameworks I use here: C#, ASP.NET Framework 3.x/4.x, ASP.NET Core, SQL Server, Entity Framework, ADO.NET, LINQ, AngularJS 1+, JQuery, AJAX, HTML, CSS, Bootstrap etc.
               </p>
             </li>
           </ul>
